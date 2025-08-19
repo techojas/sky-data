@@ -10,9 +10,11 @@ SELECT visitor_id;
       ,subsection;
       from `nowott-ds-prod-001.GDLDatamartSilver.SilverClickStreamAnalytics` 
 
-      WHERE visitor_id = '123412'
-      and page_name = 'Editorial';
 
+
+      WHERE visitor_id = '123412'
+      and adobe_date = '2024-11-01'
+      and page_name = 'Editorial';
 
 
 
