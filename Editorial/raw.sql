@@ -9,5 +9,10 @@ SELECT visitor_id
       ,adobe_date
       ,subsection
       from `nowott-ds-prod-001.GDLDatamartSilver.SilverClickStreamAnalytics` 
+
       WHERE visitor_id = 'xx12'
       and page_name = 'Editorial'
+
+
+
+
