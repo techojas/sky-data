@@ -8,7 +8,7 @@ SELECT visitor_id
       ,tile_row
       ,adobe_date
       from `nowott-ds-prod-001.GDLDatamartSilver.SilverClickStreamAnalytics` 
-      where adobe_date = '2023-11-01'
+      where adobe_date = '2024-11-01'
       and page_name = 'test'
 
 
